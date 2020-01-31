@@ -1,0 +1,10 @@
+<html>
+<body>
+{{$myslice := .}}
+<ul>
+{{range $index,$value := $myslice}}
+<li>{{$index}} - {{$value}}</li>
+{{end}}
+</ul>
+</body>
+</html>

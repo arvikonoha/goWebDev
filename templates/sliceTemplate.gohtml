@@ -1,0 +1,10 @@
+<html>
+<body>
+{{$array := .}}
+  <ul>
+    {{range $elem := $array}}
+    <li>{{$elem}}</li>
+    {{end}}
+  </ul>
+</body>
+</html>
